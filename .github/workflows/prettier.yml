@@ -31,4 +31,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run ESlint
-        run: eslint . --ext .js
+        run: yarn run eslint . --ext .js

@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "nodemon index.js",
-    "lint": "eslint ./**/*.js",
+    "lint": "eslint . --ext .js",
     "lint:fix": "eslint ./**/*.js --fix"
   },
   "keywords": [],
